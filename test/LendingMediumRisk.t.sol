@@ -3,14 +3,8 @@ pragma solidity 0.8.18;
 import "forge-std/Test.sol";
 import "./BaseTest.sol";
 import "../src/Neno.sol";
-// import "../src/veNeno.sol";
-// import "../src/Minter.sol";
-// import "../src/RewardsDistributor.sol";
 
 contract LendingMediumRiskTest is BaseTest {
-    // Neno public neno;
-    // Minter public minter;
-    // RewardsDistributor public rewardsDistributor;
     uint128 public constant MAX_DEPOSIT_SIZE = type(uint128).max;
     uint256 private constant BORROW_OPENING_FEE = 50; // 0.05%
     uint256 private constant BORROW_OPENING_FEE_PRECISION = 1e5;
